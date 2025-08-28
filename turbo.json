@@ -13,6 +13,9 @@
     "lint:fix": {
       "dependsOn": ["^lint:fix"]
     },
+    "//#lint-staged": {
+      "cache": false
+    },
     "check-types": {
       "dependsOn": ["^check-types"]
     },
