@@ -1,5 +1,9 @@
 import antfu from "@antfu/eslint-config";
 
+/**
+ * A custom ESLint configuration for libraries that use React.
+ *
+  @type {import("eslint").Linter.Config[]} */
 export default antfu(
   {
     type: "app",
@@ -13,25 +17,12 @@ export default antfu(
   },
   {
     rules: {
-      "ts/no-redeclare": "off",
-      "ts/consistent-type-definitions": ["error", "type"],
-      "no-console": ["warn"],
-      "antfu/no-top-level-await": ["off"],
-      "node/prefer-global/process": ["off"],
-      "node/no-process-env": ["error"],
       "perfectionist/sort-imports": [
         "error",
         {
           tsconfigRootDir: ".",
         },
       ],
-      "unicorn/filename-case": [
-        "error",
-        {
-          case: "kebabCase",
-          ignore: ["README.md"],
-        },
-      ],
     },
-  }
+  },
 );
