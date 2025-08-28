@@ -66,8 +66,7 @@ a {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 /* Hover effect */

@@ -3,7 +3,7 @@ export default function Home() {
     <div className="parent-container">
       <span className="loader"></span>
       <a
-        href={"#"}
+        href="#"
         className="card-link"
         target="_blank"
         rel="noopener noreferrer"
