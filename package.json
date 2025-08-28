@@ -10,7 +10,7 @@
     "dev": "turbo run dev",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint-staged": "turbo lint",
+    "lint-staged": "pnpm lint",
     "check-types": "turbo run check-types",
     "prepare": "husky"
   },
