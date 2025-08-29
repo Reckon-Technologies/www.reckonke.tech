@@ -1,5 +1,8 @@
-import { Button } from "@repo/ui/components/button";
+import { GitPullRequestArrow } from "lucide-react";
 
+import { ModeToggle } from "@/components/mode-toggle";
+import { DropdownMenuDemo } from "@/components/ui/dropdown-menu-demo";
+import { Button } from "@repo/ui/components/button";
 import {
   Card,
   CardAction,
@@ -11,9 +14,6 @@ import {
 } from "@repo/ui/components/card";
 import { Input } from "@repo/ui/components/input";
 import { Label } from "@repo/ui/components/label";
-import { GitPullRequestArrow } from "lucide-react";
-import { ModeToggle } from "@/components/mode-toggle";
-import { DropdownMenuDemo } from "@/components/ui/dropdown-menu-demo";
 
 export default function Home() {
   return (

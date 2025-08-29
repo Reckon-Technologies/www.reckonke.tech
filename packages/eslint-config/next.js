@@ -15,9 +15,12 @@ export default antfu(
       semi: true,
       quotes: "double",
     },
+    ignores: ["**/env.ts"],
   },
   {
     rules: {
+      "ts/no-redeclare": "off",
+      "node/prefer-global/process": ["off"],
       "perfectionist/sort-imports": [
         "error",
         {
