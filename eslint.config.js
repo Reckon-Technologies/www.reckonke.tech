@@ -7,6 +7,7 @@ import antfu from "@antfu/eslint-config";
 export default antfu(
   {
     type: "app",
+    nextjs: true,
     typescript: true,
     formatters: true,
     stylistic: {
@@ -28,6 +29,19 @@ export default antfu(
         {
           case: "kebabCase",
           ignore: ["README.md"],
+        },
+      ],
+    },
+  },
+  {
+    files: ["**/*.tsx"],
+    rules: {
+      "ts/no-redeclare": "off",
+      "node/prefer-global/process": ["off"],
+      "perfectionist/sort-imports": [
+        "error",
+        {
+          tsconfigRootDir: ".",
         },
       ],
     },

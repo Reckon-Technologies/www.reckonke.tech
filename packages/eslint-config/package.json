@@ -5,5 +5,8 @@
   "private": true,
   "exports": {
     "./next-js": "./next.js"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^15.5.2"
   }
 }
