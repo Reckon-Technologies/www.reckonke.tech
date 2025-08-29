@@ -9,7 +9,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    environment: Build
+    env:
+      NODE_ENV: development
+      PROJECT_NAME: ${{ secrets.PROJECT_NAME }}
     steps:
       - uses: actions/checkout@v4
       - name: Install pnpm
