@@ -149,7 +149,7 @@ function Header({
                 </NavigationMenu>
               </div>
 
-              <Button asChild className="bg-ebony h-9 rounded-md text-secondary-foreground shadow-sm hover:bg-ebony/90 border border-charcoal">
+              <Button asChild className="hidden sm:inline-flex bg-ebony h-9 rounded-md text-secondary-foreground shadow-sm hover:bg-ebony/90 border border-charcoal">
                 <a href={ctaButton.cta.url}>
                   {ctaButton.cta.title}
                   <PhoneCall className="ml-1" />
