@@ -1,3 +1,4 @@
+import { Footer } from "@/components/ui/footer";
 import { Hero } from "@/components/ui/hero";
 import { Partners } from "@/components/ui/partners";
 
@@ -14,7 +15,10 @@ export default function Home() {
       />
       <Partners />
 
-      <div className="my-20" />
+      <section className="bg-obsidian px-2.5 lg:px-0 flex items-center justify-center">
+        <div className="max-w-[1200] flex-1 border h-10" />
+      </section>
+      <Footer />
     </div>
   );
 }

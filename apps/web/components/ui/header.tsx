@@ -4,7 +4,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 import { siteConfig } from "@/config/site";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@repo/ui/components/accordion";
 import { Button } from "@repo/ui/components/button";
-import { Logos } from "@repo/ui/components/icons";
+import { Icons } from "@repo/ui/components/icons";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -135,7 +135,7 @@ function Header({
             <div className="flex items-center gap-6">
               {/* Logo */}
               <a href={logo.url} className="flex items-center gap-2">
-                <Logos.company_logo className="size-8 lg:size-11" />
+                <Icons.company_logo className="size-8 lg:size-11" />
                 <div className="flex flex-col text-xl font-semibold tracking-tighter">
                   {logo.title}
                   <span className="hidden lg:inline-block text-[8px] tracking-wide">TECHNOLOGIES</span>
@@ -169,7 +169,7 @@ function Header({
                       <SheetHeader>
                         <SheetTitle>
                           <a href={logo.url} className="flex items-center gap-2">
-                            <Logos.company_logo className="max-h-8" />
+                            <Icons.company_logo className="max-h-8" />
                           </a>
                         </SheetTitle>
                       </SheetHeader>
